@@ -101,7 +101,7 @@ body {
   line-height: 28px;
 }
 /* service */
-.sevices {
+.services {
   margin: 90px 0px;
 }
 .service-card-img {
@@ -116,9 +116,15 @@ body {
 .services-card p {
   line-height: 28px;
 }
+.services-card {
+  flex: 1 1 0;
+  min-width: 315px;
+}
 .services-row {
   display: flex;
   column-gap: 30px;
+  flex-wrap: wrap;
+  row-gap: 60px;
 }
 /* portfolio */
 .portfolio {
